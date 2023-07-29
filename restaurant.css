@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body { 
+    background-image: url(https://res.cloudinary.com/tf-lab/image/upload/w_600,h_337,c_fill,q_auto,f_auto/restaurant/f19ccd3e-5bfc-4806-a036-642889f73ca8/f0ba5b76-faaa-4a76-8f63-2ec01439b7c9.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 1em;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal li a {
+    display: block;
+    padding: 15px 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menu-horizontal li:hover {
+    background-color: rgb(24, 30, 54);
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: black;
+}
+
+.menu-vertical li a {
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+}
+@media(max-width:10000px){
+    body{
+        width: 98%;
+        background-image: url(https://res.cloudinary.com/tf-lab/image/upload/w_600,h_337,c_fill,q_auto,f_auto/restaurant/f19ccd3e-5bfc-4806-a036-642889f73ca8/f0ba5b76-faaa-4a76-8f63-2ec01439b7c9.jpg);
+    }
+}
+@media(min-width: 600px){
+    body{
+        width: 98%;
+        background-image: url(https://res.cloudinary.com/tf-lab/image/upload/w_600,h_337,c_fill,q_auto,f_auto/restaurant/f19ccd3e-5bfc-4806-a036-642889f73ca8/f0ba5b76-faaa-4a76-8f63-2ec01439b7c9.jpg);
+    }
+}
+
+
+
+
+

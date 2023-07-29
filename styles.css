@@ -7,23 +7,8 @@ body{
     background: rgb(150, 147, 154);
     background-size: cover;
 }
-#contenedor{
-    width: 1200px;
-    height: 1000px;
-    background: rgb(196, 184, 179);
-    margin: 0.5mm auto;
-    padding: 0.5mm;}
-#head{
-    height: 50%;
-    width: 97%;
-    background: gray;
-    border-radius: 1em;
-    margin: 1em;
-    background: url(img/comida.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
+
+
 nav{
     max-width: 900px;
     margin: auto;
