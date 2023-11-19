@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>5 star restaurant scalante</title>
     <link rel="stylesheet" href="restaurant.css">
-    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
     <div class="contenedor">
@@ -14,31 +14,27 @@
 
     <nav>
         <ul class="menu-horizontal">
-            <li> <a href="#">Inicio</a></li>
+            <li> <a href="restaurant.php">Inicio</a></li>
             <li>
                 <a href="#">mira lo que tenemos para ti</a>
                 <ul class="menu-vertical">
-                    <li><a href="https://issuu.com/ianj30/docs/doc1.docx">Mexican gastronomy</a></li>
+                    <li><a href="https://issuu.com/ianj30/docs/doc1.docx">gastronomia mexicana</a></li>
                     <li><a href="https://es.123rf.com/photo_100196652_imagen-para-el-famoso-men%C3%BA-de-cat%C3%A1logos-de-comida-tailandesa-picante-tradicional-ensalada-de-papaya.html">thai cuisine</a></li>
                     <li><a href="https://issuu.com/vilmachaccara/docs/gastronomia_peruana">Peruvian gastronomy</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#">descripcion</a>
-                <ul class="menu-vertical">
-                    <li><a href="#">semanal</a></li>
-                    <li><a href="#">mensual</a></li>
-                    <li><a href="#">anual</a></li> 
-                </ul>
+                <a href="registro.php">registro</a>
+                
             </li>
             <li><a href="https://www.google.com/maps/place/Garz%C3%B3n,+Huila/@2.1954024,-75.6686676,13z/data=!3m1!4b1!4m6!3m5!1s0x8e24d98384178e01:0x9f68d7ef91701394!8m2!3d2.195403!4d-75.6274679!16s%2Fm%2F02qmzn2?hl=es&entry=ttu">Ubicación</a></li>
             <li><a href="https://wa.me/573214600648?text=Hola%2C+me+gustaria+que+me+enviaras+el+catalogo">Contacto</a></li>
         </ul>
     </nav><br><br><br><br><hr>
-    <!--<iframe src="#" width="520px" height="410px" frameborder="0"></iframe><br>-->
+    
     <div class="card-group">
         <div class="card">
-          <img src="/img/pescado veracruzano.jpg" class="card-img-top" alt="...">
+          <img src="" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Huachinango a la Veracruzana</h5>
             <p class="card-text">Traducción del inglés-Huachinango a la Veracruzana es un plato de pescado clásico de Veracruz, México. Se le ha llamado el platillo insignia del estado de Veracruz. Combina ingredientes y métodos de cocción de España y del México precolonial. El uso de aceitunas y alcaparras le da un sabor mediterráneo al plato</p>
